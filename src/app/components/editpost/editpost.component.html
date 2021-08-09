@@ -1,0 +1,21 @@
+<h2>Edit</h2>
+<form [formGroup]="shoppingForm" (ngSubmit)="onEdited()">
+
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Name</label>
+    <input type="text" formControlName="name" class="form-control" id="nameFormControlInput1"
+      placeholder="Title">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+    <textarea class="form-control" formControlName="description"  id="descriptionFormControlTextarea1"
+      rows="3"></textarea>
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Price</label>
+    <input type="text" formControlName="price" class="form-control" id="priceFormControlInput2"
+      placeholder="Title">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Update</button>
+</form>

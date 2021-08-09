@@ -1,0 +1,9 @@
+{
+    "items" : [
+    {"id": "1", "name": "Redmi 9 Prime", "description": "Redmi 9 prime (Mint Green, 4GB RAM, 64GB Storage) -Full HD+ Display & AI Quad Camera", "price": "9400", "img":"/assets/image/shopping.png" },
+    { "id": "2", "name": "Redmi 9 Power", "description": "Redmi 9 Power (Blazing Blue, 4GB RAM, 64GB Storage) - 6000mAh Battery | 48MP Quad Camera", "price": "10030", "img": "/assets/image/shopping1.png" },
+    { "id": "3", "name": "Redmi 9A", "description": "Redmi 9A (Nature Green, 2GB Ram, 32GB Storage) | 2GHz Octa-core Helio G25 Processor", "price": "10999", "img": "/assets/image/shopping3.png"},
+    { "id": "4", "name": "Samsung Galaxy Prime", "description": "16.95cm 6.7 FHD+ widescreen display, powered by Super AMOLED Plus technology", "price": "8999", "img": "/assets/image/shopping4.png" },
+    { "id": "5", "name": "Redmi 9", "description": "Mi 10i 5G (Midnight Black, 6GB RAM, 128GB Storage) - 108MP Quad Camera | Snapdragon 750G Processor", "price": "7999", "img": "/assets/image/shopping2.png" }
+  ]  
+}

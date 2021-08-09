@@ -1,0 +1,20 @@
+<!-- View item page -->
+<div *ngIf="isView" class="main">
+    <button type="button" class="btn btn-primary" (click)="createpost()">ADD item</button>
+  <div class="row">
+    <div *ngFor="let item of items; index as i;" class="card" style="width: 18rem;">
+      <!-- <img src={{item.img}} class="card-img-top" alt="..."> -->
+      <div class="card-Description">
+        <h5 class="card-title">{{item.name}}</h5>
+        <p class="card-text">{{item.description}}</p>
+        <p class="card-text">{{item.price |currency}}</p>
+        <button type="button" class="btn btn-primary"  (click)="editpost(item)">Edit</button>
+        <button type="button" class="btn btn-primary" (click)="deletepost(item)">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
+<h6>{{errorMsg}}</h6>
+<!-- add added items in this component -->
+  <app-createpost  *ngIf="isCerate" [items]='items' (iscrete)="iscrete($event)" (additems)="additema($event)"></app-createpost>
+  <app-editpost *ngIf="isedit" [selectedItem]="selectedItem" (edited)="onedit($event)"></app-editpost>
